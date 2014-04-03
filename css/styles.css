@@ -1,0 +1,93 @@
+h1 {
+	text-align: center;
+	font-family: monospace;
+}
+
+h2 {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+	font-family: courier;
+}
+
+body {
+	background-color: #B7BBBD;
+}
+
+
+a:link, a:visited {text-decoration: none; color: white;
+}
+
+header {
+	word-spacing: 4em;
+	font-size: 16px;
+	font-family: courier;
+}
+/*html {*/
+	background-color: black;
+}
+
+.container {
+	background-color: white;
+	width: 95%;
+	margin: 0 auto;
+}
+
+nav {
+	display: block;
+	width:100%;
+	height:20%;
+	background-color:#505050; 
+}
+
+ul.nav {
+	width:80%;
+	margin:0 auto;
+	padding: 0;
+}
+
+ul.nav > li {
+	display: inline-block;
+	padding:10px;
+	margin-left: 25px;
+	/*background:#6C8BA6;*/
+}
+ul.nav > li:hover {
+	background:#6C8BA6;
+}
+
+header {
+	height: 200px;
+	width: 100%;
+	background-image: url("../image/bridge.jpeg");
+	background-position: center;
+	background-color: #505050;
+	background-repeat: no-repeat;
+}
+
+article {
+	clear:both;
+}
+
+
+section {
+	display:inline-block;
+	margin-left: 10px;
+}
+
+.column-content {
+	width:40%;
+}
+
+
+.column-sidebar {
+	width:6%;
+	text-align: center;
+	float: right;
+	background-color: #B7BBBD;
+}
+
+
+
