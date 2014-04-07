@@ -1,39 +1,46 @@
-h1 {
-	text-align: center;
-	font-family: monospace;
-}
-
-h2 {
-	text-align: center;
-}
-
-h3 {
-	text-align: center;
-	font-family: courier;
-}
-
 body {
-	background-color: #B7BBBD;
+	/*background-color: #c6c4cb;*/
+	background-color: black;
+	margin:0;
+	font-family: Verdana, sans-serif;
+}
+
+.container {
+	overflow: hidden;
+	/*background: #c6c4cb;*/
+	background-color: black;
+	width: 1200px;
+	height: 100%;
+	padding: 0;
+	margin: 0 auto;
 }
 
 
-a:link, a:visited {text-decoration: none; color: white;
+
+.container h1 {
+	text-align: center;
+	color: white;
+
+}
+
+
+a:link, a:visited {
+	text-decoration: none; 
+	color: white;
 }
 
 header {
 	word-spacing: 4em;
 	font-size: 16px;
 	font-family: courier;
-}
-/*html {*/
-	background-color: black;
+	height: 200px;
+	width: 100%;
+	background-image: url("../image/bridge.jpeg");
+	background-position: center;
+	background-color: #505050;
+	background-repeat: no-repeat;
 }
 
-.container {
-	background-color: white;
-	width: 95%;
-	margin: 0 auto;
-}
 
 nav {
 	display: block;
@@ -43,28 +50,24 @@ nav {
 }
 
 ul.nav {
-	width:80%;
+	width:85%;
 	margin:0 auto;
 	padding: 0;
 }
 
 ul.nav > li {
 	display: inline-block;
-	padding:10px;
-	margin-left: 25px;
+	padding-top:15px;
+	padding-bottom: 15px;
+	margin-left: 35px;
 	/*background:#6C8BA6;*/
 }
 ul.nav > li:hover {
-	background:#6C8BA6;
-}
-
-header {
-	height: 200px;
-	width: 100%;
-	background-image: url("../image/bridge.jpeg");
-	background-position: center;
-	background-color: #505050;
-	background-repeat: no-repeat;
+	background:black;
+	border-radius: 35%;
+	color: white;
+	-webkit-transition: all 1s ease;
+	transition: all 1s ease;
 }
 
 article {
@@ -79,14 +82,31 @@ section {
 
 .column-content {
 	width:40%;
+	margin-left: 37.4%;
 }
 
+/*.column-content img {
+	width: 206px;
+	height: 250px;
+	opacity: .7;
+	margin-left: 50px;
+}
 
-.column-sidebar {
-	width:6%;
+.column-content img:hover {
+	opacity: 1;
+	width:306px;
+    height:420px;
+    -webkit-transform: all 1s ease;
+    transform: all 1s ease;
+}*/
+
+
+
+/*.social {*/
+	width:100%;
 	text-align: center;
 	float: right;
-	background-color: #B7BBBD;
+
 }
 
 
