@@ -1,6 +1,6 @@
 body {
 	/*background-color: #c6c4cb;*/
-	background-color: black;
+	background-color: #a1a1a1;
 	margin:0;
 	font-family: Verdana, sans-serif;
 }
@@ -8,14 +8,16 @@ body {
 .container {
 	overflow: hidden;
 	/*background: #c6c4cb;*/
-	background-color: black;
+	background-color: #a1a1a1;
 	width: 1200px;
 	height: 100%;
 	padding: 0;
 	margin: 0 auto;
 }
 
+.container {
 
+}
 
 .container h1 {
 	text-align: center;
@@ -33,20 +35,21 @@ header {
 	word-spacing: 4em;
 	font-size: 16px;
 	font-family: courier;
-	height: 200px;
+	height: 220px;
 	width: 100%;
-	background-image: url("../image/bridge.jpeg");
+	background-image: url("../image/header.jpg");
 	background-position: center;
-	background-color: #505050;
+	background-color: black;
 	background-repeat: no-repeat;
 }
+ 
 
 
 nav {
 	display: block;
 	width:100%;
 	height:20%;
-	background-color:#505050; 
+	background-color:black; 
 }
 
 ul.nav {
@@ -63,9 +66,9 @@ ul.nav > li {
 	/*background:#6C8BA6;*/
 }
 ul.nav > li:hover {
-	background:black;
+	background:#8f8f8f;
 	border-radius: 35%;
-	color: white;
+	color: black;
 	-webkit-transition: all 1s ease;
 	transition: all 1s ease;
 }
