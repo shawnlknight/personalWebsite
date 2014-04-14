@@ -1,0 +1,6 @@
+.images img:hover {
+	width: 500px;
+	height: 500px;
+    -webkit-transition: all 3s ease;
+    transition: all 3s ease;
+}

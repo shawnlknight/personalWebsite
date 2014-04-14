@@ -5,3 +5,9 @@
 	width: 300px;
 	height: 420px;
 }
+
+.images img:hover {
+	height: 50px;
+    -webkit-transition: all 5s ease;
+    transition: all 5s ease;
+}
